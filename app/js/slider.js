@@ -6,11 +6,6 @@ $(function () {
 
 
 
-
-
-
-
-
   $('.expert-slider').slick({
     infinite: false,
     slidesToShow: 2,
