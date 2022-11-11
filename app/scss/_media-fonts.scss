@@ -1,0 +1,46 @@
+@media (min-width: 500px){
+    .global-image-title-h1{
+        font-size: 3rem;
+    }
+}
+@media(min-width:782px){
+    .global-text-p{
+        font-size: 1.3rem;
+    }
+    .nav-parent{
+        ul{
+            li{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .destinatin-jerah-content{
+        p{
+            font-size: 1.3rem;  
+        }
+        h2{
+            font-size: 3rem;
+        }
+    }
+}
+@media (min-width: 992px){
+    .global-image-title-h1{
+        font-size: 5rem;
+    }
+    .nav-parent{
+        ul{
+            li{
+                a{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px){
+    .global-image-title-h1{
+        font-size: 6rem;
+    }
+}

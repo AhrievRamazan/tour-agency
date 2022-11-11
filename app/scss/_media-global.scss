@@ -1,0 +1,193 @@
+@media(min-width:300px){
+    .region-experience{
+        .row{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            .col-50{
+                width: 100%;
+                &:nth-child(1){
+                    text-align: center;
+                }
+            }
+        }
+    }    
+    .jerah-gallery-slider{
+      
+        .gallery-btn{
+            padding: 11px 25px 7px;
+        }
+      
+    }
+    .sleep-hungry{
+        .sleep{
+            margin: 0;
+            &::before{
+                display: inline-block;
+                left: -5px;
+                margin: 0 5px 0 0;
+                position: relative;
+                top: 20px;
+            }
+        }
+        .dining{
+            margin: 0;
+            &::before{
+                display: inline-block;
+                margin: 0 5px 0 0;
+                position: relative;
+                top: 15px;
+        
+            }
+        }
+        .brandon{
+            font-size: 8px;
+            font-size: .8rem;
+            letter-spacing: .1em;
+            margin: 30px 0 40px;
+            padding: 0 10px;
+            text-align: left;
+            text-transform: uppercase;
+            width: auto;
+        }
+    }
+    .jerah-travel-content-row{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        .col-50{
+            width: 100%;
+        }
+    }
+    .jerah-travel-content{
+        .image-div{
+            width: 100%;
+        }
+    }
+}
+@media (min-width: 500px){
+    .header-maps{
+        .header-map{
+            width: 35%; 
+            &:nth-child(3){
+                margin-top: 70px;
+            }
+        }
+    }
+    .sleep-hungry{
+        .sleep{
+            margin-right: 30px;
+        }
+        .dining{
+            margin-left: 30px;
+        }
+  
+    }
+    .jerah-gallery-slider{
+   
+        .gallery-btn{
+            padding: 11px 40px 7px;
+        }
+    
+    }
+
+}
+
+@media(min-width:782px){
+    p{
+        font-size: 1.3rem;
+    }
+    .destination-image{
+        width: 300px
+    }
+    .header-maps{
+        .header-map{
+            padding: 20px;
+            width: 15%;
+            &:nth-child(3){
+                margin-top:0;
+            }
+        }
+    }
+    .team-content{
+        width: 600px;
+    }
+    .about-container{
+        max-width: 750px;
+    }
+    .imgBannerJerahTravel{
+        .imgBanner-content{
+            padding: 20px 0;
+            width: 600px;
+        }
+    }
+    .region-experience{
+        .row{
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .jerah-travel-content{
+        max-width: 750px;
+        .image-div{
+            max-width: 720px;
+        }
+    
+    }
+    
+    .jerah-gallery-slider{
+        height: auto;
+        padding-bottom: 45%;
+    }
+}
+@media (min-width: 992px){
+
+    .imgBanner{
+        background-attachment: fixed;
+    }
+    .destination-image{
+        width: 400px;
+    }
+    .team-content{
+        width: 700px;
+    }
+    .about-container{
+        max-width: 1000px;
+    }
+    .imgBannerJerahTravel{
+        .imgBanner-content{
+            padding: 20px 0;
+            width: 800px;
+        }
+    }
+    .jerah-travel-content{
+        max-width: 1000px
+    }
+    .jerah-travel-content-row{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        
+        .col-50{
+            padding: 0 15px;
+        }
+    }
+    .jerah-travel-content{
+        .image-div{
+            max-width:455px;
+        }
+    }
+}
+@media (min-width: 1200px){
+  .about-container{
+    max-width: 750px;
+  }
+  .jerah-travel-content{
+    .image-div{
+        max-width:545px;
+    }
+}
+}

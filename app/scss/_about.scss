@@ -1,0 +1,68 @@
+.imgBannerAbout{
+    background: url(../img/about-us-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 30px;
+    &::after{
+        @extend %imgBanner-hover
+    };
+}
+.imgBannerWhy{
+    background: url(../img/why-us-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 30px;
+    &::after{
+        @extend %imgBanner-hover
+    };
+}
+.imgBannerJerahTravel{
+    background: url(../img/jerah-travel-bi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 30px;
+    &::after{
+        @extend %imgBanner-hover
+    };
+}
+.about-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    .text-about{
+        margin-bottom: 40px;
+        line-height: 1.5;
+    }
+    .title-about{
+        font-family: 'Roboto';
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .about-link{
+        background: #bebbb7;
+        color: #141c1f;
+        padding: 0 3px;
+        transition: all .35s ease-in-out;
+        &:hover{
+            background: #8b8883;
+        }
+    }
+    .text-left{
+        text-align: left;
+    }
+}
