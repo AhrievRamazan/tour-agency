@@ -1,0 +1,82 @@
+.imgBannerDestination{
+    background: url(../img/destination-bi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    &::after{
+        @extend %imgBanner-hover
+    };
+    margin-bottom: 30px;
+}
+#nazran{
+    background: url(../img/Nazran-and-Magas.jpg)no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#malgobek{
+    background: url(../img/Malgobek.jpg)no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.col-100{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    .destination-jerah-bi{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(../img/jerah-travel-bi.jpg)no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        &::after{
+            @extend %imgBanner-hover;
+        }
+    }
+    h3{
+        margin-top: 10px;
+    }
+}
+.header-title-p{
+    padding: 0 20px;
+}
+.destination-content{
+    z-index: 500;
+    color: #f2f0e7;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    .destination-text{
+        font-family: 'Roboto';
+        margin:10px 0 30px 0;
+        font-style: italic;
+    }
+    .destination-text-2{
+        margin-bottom: 20px;
+    }
+ 
+}
+.destination-col-parent{
+    .col-50{
+        width: 100%;
+        height: 500px;
+        .destination-jerah-bi{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url(../img/jerah-travel-bi.jpg)no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            &::after{
+                @extend %imgBanner-hover;
+            }
+        }
+    }
+}
+

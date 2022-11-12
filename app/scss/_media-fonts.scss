@@ -2,6 +2,11 @@
     .global-image-title-h1{
         font-size: 3rem;
     }
+    .header-title-p{
+        font-size: 12px;
+        font-size: 1.2rem;
+        font-style: italic;
+    }
 }
 @media(min-width:782px){
     .global-text-p{
@@ -21,6 +26,14 @@
             font-size: 1.3rem;  
         }
         h2{
+            font-size: 3rem;
+        }
+    }
+    .header-title-p{
+        font-size: 2rem;
+    }
+    .destination-content{
+        h3{
             font-size: 3rem;
         }
     }

@@ -200,7 +200,6 @@
 }
 
 .jerah-gallery-slider-parent{
-    position: relative;
     margin-bottom: 30px;
     .jerah-gallery-slider{
         background: no-repeat;
@@ -220,7 +219,9 @@
             @extend %imgBanner-hover;
         }
     }
-   
+}
+
+
 
     #mago{
         background: url(../img/mago-gallery-slide.jpg)no-repeat;
@@ -259,7 +260,7 @@
     }
 
    
-}
+
 
 .image-view{
     display: none;

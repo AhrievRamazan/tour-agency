@@ -54,6 +54,13 @@
         @extend %imgBanner-hover
     }
 }
+.header-title-p{
+    span{
+        font-family: 'Roboto';
+        font-size: .9rem;
+        letter-spacing: .08em;
+    }
+}
 .change{
     .imgBanner{
         background-position:60% 60% ;
