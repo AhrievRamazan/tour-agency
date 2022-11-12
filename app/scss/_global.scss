@@ -79,6 +79,12 @@ img{
 p{
     line-height: 1.5;
 }
+footer{
+    .nav{
+        flex-wrap: wrap;
+    }
+   
+}
 .col-50{
     width: 50%;
     height: auto;
@@ -160,7 +166,9 @@ p{
     margin-bottom: 30px;
 }
 
-
+.team-block{
+    padding: 0 15px
+}
 .team-title{
     color: #f2f0e7;
     font-family: 'Roboto',serif;

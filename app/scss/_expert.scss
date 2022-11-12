@@ -1,0 +1,22 @@
+.imgBannerExperts{
+    background: url(https://oir.mobi/uploads/posts/2021-06/thumbs/1623459958_49-oir_mobi-p-koster-na-beregu-reki-priroda-krasivo-foto-56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    &::after{
+        @extend %imgBanner-hover
+    };
+    margin-bottom: 30px;
+}
+.col-25{
+    width: 100%;
+}
+.experts-container{
+    margin-top: 70px;
+    .expert-photo{
+        width: 100%;
+    }
+}
