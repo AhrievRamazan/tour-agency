@@ -497,6 +497,9 @@ footer .nav {
 }
 
 @media (min-width: 250px) {
+  .global-image-title-h1 {
+    margin-bottom: 15px;
+  }
   .adres .col-50 {
     width: 100%;
   }
