@@ -222,6 +222,70 @@ footer .nav {
   font-size: 1.8rem;
 }
 
+.mobile-burger {
+  background: #141C1F;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 900;
+}
+
+.toggle {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  background: url(../img/menu.png);
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 999;
+}
+.toggle.active {
+  background: url(../img/close.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  right: 30px;
+}
+
+.sidebar {
+  position: fixed;
+  padding: 120px 0;
+  padding-left: 20px;
+  z-index: 998;
+  top: 70px;
+  display: none;
+  opacity: 0;
+}
+.sidebar.active {
+  display: flex;
+  opacity: 1;
+}
+.sidebar ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sidebar ul li {
+  line-height: 2.5;
+}
+.sidebar ul li a {
+  font-family: "Roboto";
+  font-size: 1em;
+  color: #fff;
+  margin: 10px 0;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.sidebar ul li a:hover {
+  color: #0e9bac;
+}
+
 .site-logo {
   position: absolute;
   left: 10px;
@@ -1369,6 +1433,10 @@ footer .nav {
   margin-bottom: 30px;
 }
 
+.contact-burger .mobile-burger {
+  top: 0;
+}
+
 .adres {
   margin-top: 70px;
 }
@@ -1516,68 +1584,4 @@ footer .nav {
 }
 .experts-container .expert-photo {
   width: 100%;
-}
-
-.mobile-burger {
-  background: #141C1F;
-  height: 70px;
-  width: 100%;
-  position: fixed;
-  z-index: 900;
-}
-
-.toggle {
-  position: fixed;
-  top: 15px;
-  right: 25px;
-  width: 50px;
-  height: 50px;
-  background: url(../img/menu.png);
-  background-size: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  z-index: 999;
-}
-.toggle.active {
-  background: url(../img/close.png) no-repeat;
-  width: 40px;
-  height: 40px;
-  top: 25px;
-  right: 30px;
-}
-
-.sidebar {
-  position: fixed;
-  padding: 120px 0;
-  padding-left: 20px;
-  z-index: 998;
-  top: 70px;
-  display: none;
-  opacity: 0;
-}
-.sidebar.active {
-  display: flex;
-  opacity: 1;
-}
-.sidebar ul {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.sidebar ul li {
-  line-height: 2.5;
-}
-.sidebar ul li a {
-  font-family: "Roboto";
-  font-size: 1em;
-  color: #fff;
-  margin: 10px 0;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  transition: 0.5s;
-}
-.sidebar ul li a:hover {
-  color: #0e9bac;
 }
