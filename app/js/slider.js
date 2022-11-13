@@ -4,6 +4,8 @@ $(function () {
   const galleryButton = document.querySelectorAll('.gallery-btn')
 
 
+
+
   $('.profile-slider').slick({
     infinite: false,
     slidesToShow: 4,

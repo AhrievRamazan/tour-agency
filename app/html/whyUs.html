@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <div class="mobile-burger">
+        <div class="site-logo">
+            <a href="../../index.html">
+                <img src="../img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <div class="sidebar">
+            <ul class="menu">
+                <li><a href="./destination.html" onclick="toggleMenu()">Направления</a></li>
+                <li><a href="./experts.html" onclick="toggleMenu()">Эксперты</a></li>
+                <li><a href="./about.html" onclick="toggleMenu()">О нас</a></li>
+                <li><a href="./whyUs.html" onclick="toggleMenu()">Почему нас</a></li>
+                <li><a href="./contact.html" onclick="toggleMenu()">Свяжитесь с нами</a></li>
+            </ul>
+        </div>
+    </div>
     <header class="site-header">
         <div class="site-logo">
             <a href="../../index.html">
@@ -123,5 +140,13 @@
             <img src="../img/cat.svg" alt="" class="cat">
         </div>
     </footer>
+    <script>  
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            toggleMenu.classList.toggle('active')
+            sidebar.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>

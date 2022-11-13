@@ -3,17 +3,7 @@
         @extend %btn-hover;
     }
 }
-.site-header{
-    background: #141C1F;
-    height: 70px;
-    left: 0;
-    padding: 6px 0;
-    position: fixed;
-    top: 0;
-    transform: translateY(0);
-    width: 100%;
-    z-index: 2000;
-}
+
 .site-logo{
     position: absolute;
     left: 10px;

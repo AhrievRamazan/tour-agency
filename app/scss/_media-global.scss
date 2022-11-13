@@ -1,4 +1,16 @@
 @media(min-width:250px){
+    .mobile-burger{
+        display: block;
+    }
+ .sidebar{
+    display: flex;
+    background: #141C1F;
+    height: 70px;
+    width: 100%;
+    z-index: 2000;
+    transition: all .5s;
+ }
+
     .global-image-title-h1{
         margin-bottom: 15px;
     }
@@ -236,6 +248,20 @@
     }
 }
 @media (min-width: 992px){
+    .mobile-burger{
+        display: none;
+    }
+    .site-header{
+        background: #141C1F;
+        height: 70px;
+        left: 0;
+        padding: 6px 0;
+        position: fixed;
+        top: 0;
+        transform: translateY(0);
+        width: 100%;
+        z-index: 2000;
+    }
     .adres{
         .col-50{
             width: 50%;

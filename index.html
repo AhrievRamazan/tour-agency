@@ -11,13 +11,30 @@
     <link rel="stylesheet" href="app/css/style.css">
 </head>
 <body>
-    
+    <div class="mobile-burger">
+        <div class="site-logo">
+            <a href="#">
+                <img src="app/img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <div class="sidebar">
+            <ul class="menu">
+                <li><a href="app/html/destination.html" onclick="toggleMenu()">Направления</a></li>
+                <li><a href="app/html/experts.html" onclick="toggleMenu()">Эксперты</a></li>
+                <li><a href="app/html/about.html" onclick="toggleMenu()">О нас</a></li>
+                <li><a href="app/html/whyUs.html" onclick="toggleMenu()">Почему нас</a></li>
+                <li><a href="app/html/contact.html" onclick="toggleMenu()">Свяжитесь с нами</a></li>
+            </ul>
+        </div>
+    </div>
+  
+
     <header class="site-header">
         <div class="site-logo">
             <a href="#">
                 <img src="app/img/logo.png" alt="">
             </a>
-          
         </div>
         <nav class="site-nav">
             <div class="nav-parent">
@@ -274,5 +291,13 @@
 <script src="app/js/jquery.js"></script>
 <script src="app/js/slick/slick.min.js"></script>
 <script src="app/js/slider.js"></script>
+<script>  
+    function toggleMenu(){
+        const toggleMenu = document.querySelector('.toggle');
+        const sidebar = document.querySelector('.sidebar');
+        toggleMenu.classList.toggle('active')
+        sidebar.classList.toggle('active')
+    }
+</script>
 </body>
 </html>
